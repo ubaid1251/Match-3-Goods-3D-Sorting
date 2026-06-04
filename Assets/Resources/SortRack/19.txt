@@ -1,0 +1,71 @@
+{
+  "LevelNumber": 30,
+  "blocks": [
+
+    {
+      "xAxis": -1.6,
+      "yAxis": 2.21,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"33"},{"tileID":2,"ItemID":""},{"tileID":3,"ItemID":""}]}],
+      "sortingIndex":110
+    },
+    {
+      "xAxis": 0.0,
+      "yAxis": 2.21,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"23"},{"tileID":2,"ItemID":"25"},{"tileID":3,"ItemID":"32"}]}],
+      "sortingIndex":110
+    },
+    {
+      "xAxis": 1.6,
+      "yAxis": 2.21,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"14"},{"tileID":2,"ItemID":"22"},{"tileID":3,"ItemID":"12"}]}],
+      "sortingIndex":110
+    },
+
+    {
+      "xAxis": -1.6,
+      "yAxis": 1.09,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"24"},{"tileID":2,"ItemID":"14"},{"tileID":3,"ItemID":"50"}]}],
+      "sortingIndex":100
+    },
+    {
+      "xAxis": 1.6,
+      "yAxis": 1.09,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"33"},{"tileID":2,"ItemID":"25"},{"tileID":3,"ItemID":"23"}]}],
+      "sortingIndex":100
+    },
+
+    {
+      "xAxis": -1.6,
+      "yAxis":-0.032,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"50"},{"tileID":2,"ItemID":"32"},{"tileID":3,"ItemID":"22"}]}],
+      "sortingIndex":90
+    },
+    {
+      "xAxis": 0.0,
+      "yAxis": -0.032,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"14"},{"tileID":2,"ItemID":"12"},{"tileID":3,"ItemID":""}]}],
+      "sortingIndex":90
+    },
+    {
+      "xAxis": 1.6,
+      "yAxis": -0.032,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"24"},{"tileID":2,"ItemID":"23"},{"tileID":3,"ItemID":"22"}]}],
+      "sortingIndex":90
+    },
+
+    {
+      "xAxis": -1.6,
+      "yAxis": -1.138,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"25"},{"tileID":2,"ItemID":"12"},{"tileID":3,"ItemID":"33"}]}],
+      "sortingIndex":80
+    },
+
+    {
+      "xAxis": -1.6,
+      "yAxis": -2.25,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"32"},{"tileID":2,"ItemID":"50"},{"tileID":3,"ItemID":"24"}]}],
+      "sortingIndex":70
+    }
+
+  ]
+}

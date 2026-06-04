@@ -1,0 +1,62 @@
+{
+  "LevelNumber": 28,
+  "blocks": [
+
+    {
+      "xAxis": -2.44,
+      "yAxis": 0.97,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"25"},{"tileID":2,"ItemID":"21"},{"tileID":3,"ItemID":"47"}]}],
+      "sortingIndex":110
+    },
+    {
+      "xAxis": 2.65,
+      "yAxis": 0.97,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"30"},{"tileID":2,"ItemID":"27"},{"tileID":3,"ItemID":"23"}]}],
+      "sortingIndex":110
+    },
+
+    {
+      "xAxis": -2.44,
+      "yAxis": -0.15,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"21"},{"tileID":2,"ItemID":"22"},{"tileID":3,"ItemID":"23"}]}],
+      "sortingIndex":100
+    },
+    {
+      "xAxis": -2.44,
+      "yAxis": -1.27,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"25"},{"tileID":2,"ItemID":"27"},{"tileID":3,"ItemID":"23"}]}],
+      "sortingIndex":94
+    },
+    {
+      "xAxis": -0.811,
+      "yAxis": 0.69,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"21"},{"tileID":2,"ItemID":"22"},{"tileID":3,"ItemID":"47"}]}],
+      "sortingIndex":100
+    },
+
+    {
+      "xAxis": -0.07,
+      "yAxis": -0.44,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"25"},{"tileID":2,"ItemID":"30"},{"tileID":3,"ItemID":""}]}],
+      "sortingIndex":89
+    },
+    {
+      "xAxis": 1.01,
+      "yAxis": 0.66,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"20"},{"tileID":2,"ItemID":""},{"tileID":3,"ItemID":"30"}]}],
+      "sortingIndex":90
+    },
+    {
+      "xAxis": 2.65,
+      "yAxis": -0.15,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"20"},{"tileID":2,"ItemID":"22"},{"tileID":3,"ItemID":""}]}],
+      "sortingIndex":90
+    },
+    {
+      "xAxis": 2.65,
+      "yAxis": -1.27,
+      "tilesData":[{"positionIndex":0,"isFront":true,"items":[{"tileID":1,"ItemID":"20"},{"tileID":2,"ItemID":"47"},{"tileID":3,"ItemID":"27"}]}],
+      "sortingIndex":89
+    }
+  ]
+}

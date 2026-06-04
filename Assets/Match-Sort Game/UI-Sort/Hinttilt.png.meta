@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: e8a88389a299a6648ad0cdd1c2925694
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8878672170627722544
+    second: Hinttilt_0
+  - first:
+      213: -6774536572134011004
+    second: Hinttilt_1
+  - first:
+      213: 3076970978656011872
+    second: Hinttilt_2
+  - first:
+      213: -6109921502408634095
+    second: Hinttilt_3
+  - first:
+      213: -4288638099199442087
+    second: Hinttilt_4
+  - first:
+      213: 9128449387689686201
+    second: Hinttilt_5
+  - first:
+      213: -901328530524031682
+    second: Hinttilt_6
+  - first:
+      213: -161914162778331039
+    second: Hinttilt_7
+  - first:
+      213: -1902785769654396137
+    second: Hinttilt_8
+  - first:
+      213: 5227319989639480274
+    second: Hinttilt_9
+  - first:
+      213: 8440911618503358011
+    second: Hinttilt_10
+  - first:
+      213: -5767398623355361226
+    second: Hinttilt_11
+  - first:
+      213: 7839169409312475118
+    second: Hinttilt_12
+  - first:
+      213: 5563553539757574016
+    second: Hinttilt_13
+  - first:
+      213: 6544473970541912936
+    second: Hinttilt_14
+  - first:
+      213: 563722220296792386
+    second: Hinttilt_15
+  - first:
+      213: 6847426635236470424
+    second: Hinttilt_16
+  - first:
+      213: -5820856427905595038
+    second: Hinttilt_17
+  - first:
+      213: -4890857286580991162
+    second: Hinttilt_18
+  - first:
+      213: -2372571376533444090
+    second: Hinttilt_19
+  - first:
+      213: 1750730427006309219
+    second: Hinttilt_20
+  - first:
+      213: -2075793330474276777
+    second: Hinttilt_21
+  - first:
+      213: -6548157708259501968
+    second: Hinttilt_22
+  - first:
+      213: -595477854422138740
+    second: Hinttilt_23
+  - first:
+      213: 8212142528534747716
+    second: Hinttilt_24
+  - first:
+      213: -7221315358466297646
+    second: Hinttilt_25
+  - first:
+      213: -3202597367364920529
+    second: Hinttilt_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hinttilt_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 129
+        width: 485
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d69674c41673b70800000000000000
+      internalID: 8878672170627722544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_1
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 590
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f4f0471e20cf1a0800000000000000
+      internalID: -6774536572134011004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_2
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 146
+        width: 1298
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0664af67dc893ba20800000000000000
+      internalID: 3076970978656011872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_3
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 459
+        width: 124
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111996be3c2353ba0800000000000000
+      internalID: -6109921502408634095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_4
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 531
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953c207fe52bb74c0800000000000000
+      internalID: -4288638099199442087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_5
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 517
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4306f7a54ceae70800000000000000
+      internalID: 9128449387689686201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_6
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 493
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35b0381a76dd73f0800000000000000
+      internalID: -901328530524031682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_7
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 495
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1682e734de3c0cdf0800000000000000
+      internalID: -161914162778331039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_8
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 367
+        width: 128
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bd4148c62f795e0800000000000000
+      internalID: -1902785769654396137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 465
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d382c5c5db2b8840800000000000000
+      internalID: 5227319989639480274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_10
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 457
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b363c592564242570800000000000000
+      internalID: 8440911618503358011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 406
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638a3d0528516ffa0800000000000000
+      internalID: -5767398623355361226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_12
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 343
+        width: 82
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7cd284b035acc60800000000000000
+      internalID: 7839169409312475118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_13
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 362
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0870e1aa776b53d40800000000000000
+      internalID: 5563553539757574016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_14
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 388
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863e0ffe664a2da50800000000000000
+      internalID: 6544473970541912936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_15
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 388
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249e8c46f5eb2d700800000000000000
+      internalID: 563722220296792386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_16
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 282
+        width: 90
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e61dade32f60f50800000000000000
+      internalID: 6847426635236470424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_17
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 363
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26943264be9283fa0800000000000000
+      internalID: -5820856427905595038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_18
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 331
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b8532f53f202cb0800000000000000
+      internalID: -4890857286580991162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_19
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 302
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ae67947eee21fd0800000000000000
+      internalID: -2372571376533444090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_20
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 318
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363dd2f2c08db4810800000000000000
+      internalID: 1750730427006309219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_21
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 210
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758a4f5c6fc4133e0800000000000000
+      internalID: -2075793330474276777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_22
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 250
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078d4f902454025a0800000000000000
+      internalID: -6548157708259501968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_23
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 240
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c808e8fdb007cb7f0800000000000000
+      internalID: -595477854422138740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_24
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 220
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a1132be1467f170800000000000000
+      internalID: 8212142528534747716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_25
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 185
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d03b8f01fbb8cb90800000000000000
+      internalID: -7221315358466297646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hinttilt_26
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 168
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bdc9799a61e83d0800000000000000
+      internalID: -3202597367364920529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Hinttilt_0: 8878672170627722544
+      Hinttilt_1: -6774536572134011004
+      Hinttilt_10: 8440911618503358011
+      Hinttilt_11: -5767398623355361226
+      Hinttilt_12: 7839169409312475118
+      Hinttilt_13: 5563553539757574016
+      Hinttilt_14: 6544473970541912936
+      Hinttilt_15: 563722220296792386
+      Hinttilt_16: 6847426635236470424
+      Hinttilt_17: -5820856427905595038
+      Hinttilt_18: -4890857286580991162
+      Hinttilt_19: -2372571376533444090
+      Hinttilt_2: 3076970978656011872
+      Hinttilt_20: 1750730427006309219
+      Hinttilt_21: -2075793330474276777
+      Hinttilt_22: -6548157708259501968
+      Hinttilt_23: -595477854422138740
+      Hinttilt_24: 8212142528534747716
+      Hinttilt_25: -7221315358466297646
+      Hinttilt_26: -3202597367364920529
+      Hinttilt_3: -6109921502408634095
+      Hinttilt_4: -4288638099199442087
+      Hinttilt_5: 9128449387689686201
+      Hinttilt_6: -901328530524031682
+      Hinttilt_7: -161914162778331039
+      Hinttilt_8: -1902785769654396137
+      Hinttilt_9: 5227319989639480274
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
