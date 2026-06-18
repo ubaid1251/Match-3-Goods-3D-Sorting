@@ -12,8 +12,9 @@ public class MenuMain : MonoBehaviour
     public void PlayBtn()
     {
         SoundManager.instance.PlayEffect_Instance(7);
+        IntitializeAdmob.Instance.HideBanner();
 
-        SceneManager.LoadScene("GoodSort");
+        //SceneManager.LoadScene("GoodSort");
     }
     public void PlaySound()
     {

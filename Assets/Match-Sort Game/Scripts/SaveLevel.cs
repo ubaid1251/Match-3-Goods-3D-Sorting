@@ -132,6 +132,9 @@ namespace KidsItemsSort
 
         public void ReloadLevel()
         {
+            SoundManager.instance.StopEffect(26);
+            SoundManager.instance.PlayEffect_Instance(7);
+            GameManager.instance.LoadingPanel.SetActive(true);
             GameManager.instance.ClearOldBlocks();
             LoadLevel(LevelNumber);
         }
@@ -263,6 +266,7 @@ namespace KidsItemsSort
             GameManager.instance.progressText.text = 0 + " / " + GameManager.totalItems;
             darkImage.DOFade(0, .1f).OnComplete(() => 
             {
+                GameManager.instance.CoinPlus.interactable = true;
                 darkImage.gameObject.SetActive(false);
                 darkImage.DOFade(1, .01f);
             });

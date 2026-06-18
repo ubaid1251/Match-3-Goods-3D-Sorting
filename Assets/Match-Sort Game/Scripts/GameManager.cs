@@ -27,12 +27,15 @@ namespace KidsItemsSort
         public static int totalItems;
         int completedItems;
         int coin = 0;
-        public GameObject outOfHintPopup, CoinAddPopUp;
-        public bool IsUi=false;
+        public GameObject outOfHintPopup, CoinAddPopUp,LoadingPanel;
+        public Button CoinPlus;
+        public bool IsUi=false, IsHomePress = false;
         private void Awake()
         {
             instance = this;
             IsUi = false;
+            IsHomePress = false;
+
         }
         public List<Item> allItems;
         public void UpdateProgress()
@@ -160,6 +163,8 @@ namespace KidsItemsSort
         }
         private void Start()
         {
+            IntitializeAdmob.Instance.HideBigBanner();
+            Show_Ad();
             Application.targetFrameRate = 120;
 
             foreach (Transform t in transform)
@@ -279,11 +284,18 @@ namespace KidsItemsSort
         {
             SoundManager.instance.StopEffect(26);
             SoundManager.instance.PlayEffect_Instance(7);
+            IsHomePress = true;
+            Show_Ad();
+            LoadingPanel.SetActive(true);
+            GameManager.instance.Ui_On();
             PlayerPrefs.SetInt("Completed", 1);
             PlayerPrefs.SetInt("RateCounter", PlayerPrefs.GetInt("RateCounter") + 1);
             print("Now rateus = " + PlayerPrefs.GetInt("RateCounter"));
             print("Now Completed = " + PlayerPrefs.GetInt("Completed"));
-
+            Invoke("WaitMain", 2f);
+        }
+        public void WaitMain()
+        {
             SceneManager.LoadScene("MainMenu");
         }
         public void Ui_On()
@@ -294,6 +306,24 @@ namespace KidsItemsSort
         {
             IsUi = false;
         }
+        public void Show_Ad()
+        {
+            IntitializeAdmob.Instance.ShowInterstitialAd();
+        }
+        public void RewardAd_Hint()
+        {
+            IntitializeAdmob.Instance.ShowRewarded(() =>
+            {
+                usedHints--;
+                UpdateHint_Text();
+                Debug.Log("Reward Given!");
+            });
+        }
+        //public void GetReward_Ad()
+        //{
+        //    IntitializeAdmob.Instance.ShowRewarded(); 
+           
+        //}
         public void ClearOldBlocks()
         {
             foreach (var oldBlock in GameManager.instance.blocks)

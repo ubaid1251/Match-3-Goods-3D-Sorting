@@ -159,4 +159,12 @@ public class CoinUI : MonoBehaviour
     {
         AddCoinWithEffect(50);
     }
+    public void RewardAd_GetCoin()
+    {
+        IntitializeAdmob.Instance.ShowRewarded(() =>
+        {
+            AddCoinWithEffect(20);
+            Debug.Log("Reward 20 Coin Given!");
+        });
+    }
 }

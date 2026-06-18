@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "139966007484",
+    "project_id": "sort-3d-android",
+    "storage_bucket": "sort-3d-android.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139966007484:android:8762bf74a87aced68028b9",
+        "android_client_info": {
+          "package_name": "com.amc.goods.sorting.triple.match"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTR_uzlroUG4RnDkrxqT-DZEZHJogF8cM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

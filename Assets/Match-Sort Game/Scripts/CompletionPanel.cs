@@ -43,6 +43,10 @@ namespace KidsItemsSort
         {
             SoundManager.instance.StopEffect(26);
             SoundManager.instance.PlayEffect_Instance(7);
+            GameManager.instance.Show_Ad();
+            GameManager.instance.LoadingPanel.SetActive(true);
+            GameManager.instance.CoinPlus.interactable = true;
+            GameManager.instance.Ui_On();
             panel.transform.parent.gameObject.SetActive(false);
             bjas[0].gameObject.SetActive(false);
             bjas[1].gameObject.SetActive(false);
@@ -62,6 +66,8 @@ namespace KidsItemsSort
             //panel.transform.parent.gameObject.SetActive(true);
             yield return new WaitForSeconds(.2f);
             panel.transform.parent.gameObject.SetActive(true);
+            GameManager.instance.CoinPlus.interactable = false;
+            IntitializeAdmob.Instance.HideBanner();
             SoundManager.instance.PlayEffect_Instance(1);
             //panel.transform.DOScale(1, .6f);
             cg.DOFade(1, .3f)

@@ -1,0 +1,12 @@
+# ninja log v5
+130	11872	8022981569385522	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	d36945b8f00a22c8
+117	12076	8022981569284655	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	dd624c26aaab8b09
+10	12096	8022981572029300	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	a46120b1bf599e3
+104	12937	8022981579806313	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	25c8c49917f3c974
+12097	14820	8022981597235797	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	de1349c86d2052c6
+143	15118	8022981601906056	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	88afe8fc3fd4c92b
+91	15724	8022981609432427	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	266e244734d57a62
+14821	16508	8022981617896899	C:/Users/TQ/Documents/GitHub/Candy-Merge/Match-3-Goods-3D-Sorting/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/66706826/obj/arm64-v8a/libswappywrapper.so	5056e777f8b4d4ea
+11893	17510	8022981627826969	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	62e781cc12035348
+12078	17822	8022981631025640	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	2eefa587875d919b
+17823	17963	8022981632522745	C:/Users/TQ/Documents/GitHub/Candy-Merge/Match-3-Goods-3D-Sorting/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/66706826/obj/arm64-v8a/libgame.so	4294653532ae2ac3
