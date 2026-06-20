@@ -129,6 +129,7 @@ namespace KidsItemsSort
             if (!spent)
             {
                 Debug.Log("Not Enough Coins");
+                CoinPlus.interactable = false;
                 outOfHintPopup.GetComponent<ShowAndClosePanel>().Cross();
                 StartCoroutine(ShowCoinPopupDelay());
                 return;

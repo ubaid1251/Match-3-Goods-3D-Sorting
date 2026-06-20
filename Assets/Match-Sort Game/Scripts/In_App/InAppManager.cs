@@ -18,7 +18,16 @@ public class InAppProduct
 
     public enum InAppProductType
     {
-        remove_ads
+        remove_ads,
+
+        coins_500,
+        coins_1200,
+        coins_2500,
+        coins_5000,
+        coins_10000,
+        coins_15000,
+        coins_25000,
+        coins_50000
     }
 }
 
@@ -268,22 +277,76 @@ public class InAppManager : MonoBehaviour
 
     private void ProductBought(string product)
     {
+        //switch (product)
+        //{
+        //    case nameof(InAppProduct.InAppProductType.remove_ads):
+        //    {
+        //        print("bought");
+        //        PlayerPrefs.SetInt("RemoveAds", 1);
+        //        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //    }
+        //        break;
+        //    default:
+        //        Debug.LogWarning("Unknown product: " + product);
+        //        break;
+        //}
         switch (product)
         {
             case nameof(InAppProduct.InAppProductType.remove_ads):
-            {
-                print("bought");
-                PlayerPrefs.SetInt("RemoveAds", 1);
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            }
+                {
+                    print("bought");
+                    PlayerPrefs.SetInt("RemoveAds", 1);
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                }
+                break;
+
+            case "coins_500":
+                AddCoins(500);
+                break;
+
+            case "coins_1200":
+                AddCoins(1200);
+                break;
+
+            case "coins_2500":
+                AddCoins(2500);
+                break;
+
+            case "coins_5000":
+                AddCoins(5000);
+                break;
+
+            case "coins_10000":
+                AddCoins(10000);
+                break;
+
+            case "coins_15000":
+                AddCoins(15000);
+                break;
+
+            case "coins_25000":
+                AddCoins(25000);
+                break;
+
+            case "coins_50000":
+                AddCoins(50000);
                 break;
             default:
                 Debug.LogWarning("Unknown product: " + product);
                 break;
         }
-
         Debug.Log("Reward Granted for: " + product);
     }
+    private void AddCoins(int amount)
+    {
+        //int coins = PlayerPrefs.GetInt("Coins", 0);
+        CoinUI.instance.AddCoinWithEffect(amount);
+        //coins += amount;
 
+        //PlayerPrefs.SetInt("Coins", coins);
+        //PlayerPrefs.Save();
+
+        Debug.Log("Coins Added: " + amount);
+    }
     #endregion
 }

@@ -11,7 +11,7 @@ public class AboutPanelHandler : MonoBehaviour
     public void OpenLink(string link)
     {
         //SoundManager.instance.PlayEffect_Instance(4);
-        Application.OpenURL(link);
+        //Application.OpenURL(link);
     }
     private void OnDisable()
     {
