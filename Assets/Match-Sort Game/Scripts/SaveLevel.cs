@@ -112,7 +112,7 @@ namespace KidsItemsSort
 
         public void LoadLevel(int LevelNumber)
         {
-            
+
             string json = JsonFileWriter.LoadFromResources(path + "/" + LevelNumber);
             blockParent = GameManager.instance.transform;
             if (string.IsNullOrEmpty(json))
@@ -134,6 +134,7 @@ namespace KidsItemsSort
         {
             SoundManager.instance.StopEffect(26);
             SoundManager.instance.PlayEffect_Instance(7);
+            IntitializeAdmob.Instance.ShowInterstitialAd();
             GameManager.instance.LoadingPanel.SetActive(true);
             GameManager.instance.ClearOldBlocks();
             LoadLevel(LevelNumber);
@@ -162,7 +163,7 @@ namespace KidsItemsSort
         IEnumerator LoadRoutine(string json)
         {
             darkImage.gameObject.SetActive(true);
-            
+
             //darkImage.DOFade(0, 0);
             //darkImage.DOFade(1, .5f);
             //yield return new WaitForSeconds(.2f);
@@ -264,7 +265,7 @@ namespace KidsItemsSort
             //GameManager.instance.progressSlider.maxValue = GameManager.totalItems;
             //GameManager.instance.progressText.text = 0 + " / " + GameManager.totalItems + " ( 0%)";
             GameManager.instance.progressText.text = 0 + " / " + GameManager.totalItems;
-            darkImage.DOFade(0, .1f).OnComplete(() => 
+            darkImage.DOFade(0, .1f).OnComplete(() =>
             {
                 GameManager.instance.CoinPlus.interactable = true;
                 darkImage.gameObject.SetActive(false);

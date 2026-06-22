@@ -14,11 +14,15 @@ public class CoinUI : MonoBehaviour
 
     [Header("Coin VFX")]
     public GameObject[] coinVfxs;
-
+    public GameObject[] NewPos;
     int totalCoins;
     public static CoinUI instance;
+    public bool Is_Buy;
+    public static int CoinNum;
     private void Start()
     {
+        CoinNum=0;
+        Is_Buy=false;
         totalCoins = PlayerPrefs.GetInt("Coins", 0);
         UpdateCoinText();
     }
@@ -59,9 +63,14 @@ public class CoinUI : MonoBehaviour
                 continue;
 
             coin.SetActive(true);
-
-            coin.transform.localPosition = new Vector3(-164f, -171f,0);
-
+            if (Is_Buy)
+            {
+                coin.transform.localPosition = NewPos[CoinNum].transform.localPosition;
+            }
+            else
+            {
+              coin.transform.localPosition = new Vector3(-164f, -171f,0);
+            }
             float delay = i * 0.1f;
 
             Vector3 startPos = coin.transform.position;
@@ -159,6 +168,10 @@ public class CoinUI : MonoBehaviour
     {
         AddCoinWithEffect(50);
     }
+    public void SetPosCoin(int num)
+    {
+        CoinNum=num;
+    }
     public void RewardAd_GetCoin()
     {
         IntitializeAdmob.Instance.ShowRewarded(() =>
@@ -166,5 +179,13 @@ public class CoinUI : MonoBehaviour
             AddCoinWithEffect(20);
             Debug.Log("Reward 20 Coin Given!");
         });
+    }
+    public void SetBuyFalse()
+    {
+        Is_Buy=false;
+    }
+    public void SetBuytrue()
+    {
+        Is_Buy=true;
     }
 }

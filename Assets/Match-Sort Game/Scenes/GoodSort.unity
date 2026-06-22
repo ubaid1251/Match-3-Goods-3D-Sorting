@@ -338,7 +338,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 530, y: 320}
+  m_AnchoredPosition: {x: 479.2, y: 290.7}
   m_SizeDelta: {x: 175.02, y: 175.06}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &25851928
@@ -412,6 +412,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2118161182}
         m_TargetAssemblyTypeName: KidsItemsSort.GameManager, Assembly-CSharp
         m_MethodName: Ui_Off
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5914752302530684801}
+        m_TargetAssemblyTypeName: CoinUI, Assembly-CSharp
+        m_MethodName: SetBuyFalse
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1009,7 +1021,7 @@ RectTransform:
   m_GameObject: {fileID: 64008311}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9475852, y: 0.9475852, z: 0.9475852}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 907547693}
@@ -1020,7 +1032,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -144, y: 69.00001}
+  m_AnchoredPosition: {x: -120.99999, y: 30.000011}
   m_SizeDelta: {x: 260.17, y: 282.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &64008313
@@ -1093,7 +1105,7 @@ RectTransform:
   m_GameObject: {fileID: 103371213}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9475852, y: 0.9475852, z: 0.9475852}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 738943105}
@@ -1104,7 +1116,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 425.99997, y: -219.39}
+  m_AnchoredPosition: {x: 405, y: -258.38998}
   m_SizeDelta: {x: 260.17, y: 282.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &103371215
@@ -1968,7 +1980,7 @@ RectTransform:
   m_GameObject: {fileID: 280279952}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9475852, y: 0.9475852, z: 0.9475852}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1205132522}
@@ -1979,7 +1991,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -144.00003, y: -219.39}
+  m_AnchoredPosition: {x: -121.00002, y: -258.38998}
   m_SizeDelta: {x: 260.17, y: 282.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &280279954
@@ -2273,14 +2285,14 @@ RectTransform:
   m_GameObject: {fileID: 332832559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.22426833, y: 0.22426833, z: 0.22426833}
+  m_LocalScale: {x: 0.21039286, y: 0.21039286, z: 0.21039286}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1405238624}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -214.44, y: 353.5}
+  m_AnchoredPosition: {x: -204.4, y: 323.4}
   m_SizeDelta: {x: 401.06, y: 394.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &332832561
@@ -2348,7 +2360,7 @@ RectTransform:
   m_GameObject: {fileID: 335139353}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9475852, y: 0.9475852, z: 0.9475852}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2078463701}
@@ -2359,7 +2371,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 142.99997, y: -219.39}
+  m_AnchoredPosition: {x: 147, y: -258.38998}
   m_SizeDelta: {x: 260.17, y: 282.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &335139355
@@ -3255,7 +3267,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.6
+  orthographic size: 6.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3280,7 +3292,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 0, y: 1.46, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3743,6 +3755,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5914752302530684801}
+        m_TargetAssemblyTypeName: CoinUI, Assembly-CSharp
+        m_MethodName: SetPosCoin
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &548423942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3833,8 +3857,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -63.5}
-  m_SizeDelta: {x: 0, y: 0.0000038146973}
+  m_AnchoredPosition: {x: 0, y: -125}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &575110405
 GameObject:
@@ -4612,7 +4636,7 @@ RectTransform:
   m_GameObject: {fileID: 660329585}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9475852, y: 0.9475852, z: 0.9475852}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 777709291}
@@ -4623,7 +4647,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 143, y: 69.00001}
+  m_AnchoredPosition: {x: 147.00002, y: 30.000011}
   m_SizeDelta: {x: 260.17, y: 282.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &660329587
@@ -5820,6 +5844,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5914752302530684801}
+        m_TargetAssemblyTypeName: CoinUI, Assembly-CSharp
+        m_MethodName: SetPosCoin
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &726732692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6079,7 +6115,7 @@ RectTransform:
   m_GameObject: {fileID: 729258752}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9475852, y: 0.9475852, z: 0.9475852}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1137364260}
@@ -6090,7 +6126,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -420, y: -219.39}
+  m_AnchoredPosition: {x: -388, y: -258.38998}
   m_SizeDelta: {x: 260.17, y: 282.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &729258754
@@ -6381,8 +6417,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4, y: 352}
-  m_SizeDelta: {x: 628, y: 469}
+  m_AnchoredPosition: {x: -9, y: 317}
+  m_SizeDelta: {x: 570.54, y: 421.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &749159032
 MonoBehaviour:
@@ -7384,11 +7420,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2845662883650297250, guid: 5aeb2d18b2836b04089310962b37d506, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -165.6
+      value: -162.1
       objectReference: {fileID: 0}
     - target: {fileID: 2845662883650297250, guid: 5aeb2d18b2836b04089310962b37d506, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -165.5
+      value: -157.8
       objectReference: {fileID: 0}
     - target: {fileID: 2845662883650297252, guid: 5aeb2d18b2836b04089310962b37d506, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -7451,32 +7487,40 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2845662884410669976, guid: 5aeb2d18b2836b04089310962b37d506, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845662884410669976, guid: 5aeb2d18b2836b04089310962b37d506, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845662884410669976, guid: 5aeb2d18b2836b04089310962b37d506, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1263.14
+      value: 1215.5
       objectReference: {fileID: 0}
     - target: {fileID: 2845662884410669976, guid: 5aeb2d18b2836b04089310962b37d506, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 996.56
+      value: 948.92
       objectReference: {fileID: 0}
     - target: {fileID: 2845662884410669976, guid: 5aeb2d18b2836b04089310962b37d506, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2845662884410669976, guid: 5aeb2d18b2836b04089310962b37d506, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2845662884410669976, guid: 5aeb2d18b2836b04089310962b37d506, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2845662884410669976, guid: 5aeb2d18b2836b04089310962b37d506, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2845662884410669976, guid: 5aeb2d18b2836b04089310962b37d506, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -58.72
+      value: -648
       objectReference: {fileID: 0}
     - target: {fileID: 2845662884410669977, guid: 5aeb2d18b2836b04089310962b37d506, type: 3}
       propertyPath: m_Sprite
@@ -7532,7 +7576,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854519972}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -8273,6 +8317,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5914752302530684801}
+        m_TargetAssemblyTypeName: CoinUI, Assembly-CSharp
+        m_MethodName: SetPosCoin
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &929275076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8356,7 +8412,7 @@ RectTransform:
   m_GameObject: {fileID: 1100531063}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9475852, y: 0.9475852, z: 0.9475852}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1562205148}
@@ -8367,7 +8423,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 426, y: 69.00001}
+  m_AnchoredPosition: {x: 405.00003, y: 30.000011}
   m_SizeDelta: {x: 260.17, y: 282.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1100531065
@@ -8767,7 +8823,7 @@ RectTransform:
   m_GameObject: {fileID: 1130379846}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.9475852, y: 0.9475852, z: 0.9475852}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1845410922}
@@ -8778,7 +8834,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -420, y: 69}
+  m_AnchoredPosition: {x: -388, y: 30}
   m_SizeDelta: {x: 260.17, y: 282.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1130379848
@@ -9086,6 +9142,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: BuyProduct, Assembly-CSharp
         m_MethodName: BuyButtonClick
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5914752302530684801}
+        m_TargetAssemblyTypeName: CoinUI, Assembly-CSharp
+        m_MethodName: SetPosCoin
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -10798,7 +10866,7 @@ RectTransform:
   m_GameObject: {fileID: 1405238623}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 749159031}
@@ -10820,8 +10888,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 72, y: -39}
-  m_SizeDelta: {x: 1468.13, y: 980.08}
+  m_AnchoredPosition: {x: -3, y: -88.42}
+  m_SizeDelta: {x: 1341.89, y: 886.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1405238625
 CanvasGroup:
@@ -10831,7 +10899,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1405238623}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -11421,7 +11489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5058489585336763797, guid: efdd2bc871c50554990d1e4555c86074, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 102.76
+      value: 155.82
       objectReference: {fileID: 0}
     - target: {fileID: 5058489585336763797, guid: efdd2bc871c50554990d1e4555c86074, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11457,7 +11525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5058489585336763797, guid: efdd2bc871c50554990d1e4555c86074, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -41.369995
+      value: -67.900024
       objectReference: {fileID: 0}
     - target: {fileID: 5058489585336763797, guid: efdd2bc871c50554990d1e4555c86074, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12025,8 +12093,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 555179841}
   - {fileID: 1433330957}
+  - {fileID: 555179841}
   - {fileID: 8760880078733457690}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12061,15 +12129,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578171501}
   m_LocalRotation: {x: -0, y: -0.9991023, z: -0, w: 0.042362362}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.17424338, y: 0.17424338, z: 0.17424338}
+  m_LocalPosition: {x: 0, y: 0, z: 0.7}
+  m_LocalScale: {x: 0.16962244, y: 0.16962244, z: 0.16962244}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1405238624}
   m_LocalEulerAnglesHint: {x: 0, y: -175.144, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 204.3, y: 355.1}
+  m_AnchoredPosition: {x: 195.5, y: 326.2}
   m_SizeDelta: {x: 449, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1578171503
@@ -14933,6 +15001,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5914752302530684801}
+        m_TargetAssemblyTypeName: CoinUI, Assembly-CSharp
+        m_MethodName: SetBuytrue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1900798398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15687,6 +15767,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5914752302530684801}
+        m_TargetAssemblyTypeName: CoinUI, Assembly-CSharp
+        m_MethodName: SetPosCoin
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -16659,6 +16751,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5914752302530684801}
+        m_TargetAssemblyTypeName: CoinUI, Assembly-CSharp
+        m_MethodName: SetPosCoin
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2077117901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16938,6 +17042,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 5914752302530684801}
+        m_TargetAssemblyTypeName: CoinUI, Assembly-CSharp
+        m_MethodName: SetPosCoin
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -17296,6 +17412,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5914752302530684801}
+        m_TargetAssemblyTypeName: CoinUI, Assembly-CSharp
+        m_MethodName: SetPosCoin
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2108421597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17577,8 +17705,8 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 1
-  m_MatchWidthOrHeight: 0
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -18216,9 +18344,45 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3922294211901432030}
     m_Modifications:
+    - target: {fileID: 305922185236614682, guid: acdd317b4a9e49d4bbdfa66c73d444be, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 365
+      objectReference: {fileID: 0}
+    - target: {fileID: 595871736261236327, guid: acdd317b4a9e49d4bbdfa66c73d444be, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1200.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 595871736261236327, guid: acdd317b4a9e49d4bbdfa66c73d444be, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 927.53
+      objectReference: {fileID: 0}
+    - target: {fileID: 595871736261236327, guid: acdd317b4a9e49d4bbdfa66c73d444be, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 595871736261236327, guid: acdd317b4a9e49d4bbdfa66c73d444be, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -71
+      objectReference: {fileID: 0}
     - target: {fileID: 4741351589343564263, guid: acdd317b4a9e49d4bbdfa66c73d444be, type: 3}
       propertyPath: m_Name
       value: RemoveAdsPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 5384932081307797537, guid: acdd317b4a9e49d4bbdfa66c73d444be, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021230565294235758, guid: acdd317b4a9e49d4bbdfa66c73d444be, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6172887155861883500, guid: acdd317b4a9e49d4bbdfa66c73d444be, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 517.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6172887155861883500, guid: acdd317b4a9e49d4bbdfa66c73d444be, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 288.4
       objectReference: {fileID: 0}
     - target: {fileID: 7656224635397725480, guid: acdd317b4a9e49d4bbdfa66c73d444be, type: 3}
       propertyPath: m_Pivot.x
@@ -18308,6 +18472,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2118161182}
+    - target: {fileID: 8319016545424664117, guid: acdd317b4a9e49d4bbdfa66c73d444be, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18905,7 +19073,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -84}
+  m_AnchoredPosition: {x: 0, y: -131}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4918113031278352983
@@ -19267,6 +19435,16 @@ MonoBehaviour:
   - {fileID: 4152085887596015035}
   - {fileID: 188979990634995231}
   - {fileID: 3941351335631171291}
+  NewPos:
+  - {fileID: 1147237957}
+  - {fileID: 1971586041}
+  - {fileID: 2077117898}
+  - {fileID: 929275073}
+  - {fileID: 726732689}
+  - {fileID: 548423939}
+  - {fileID: 2102110055}
+  - {fileID: 2108421594}
+  Is_Buy: 0
 --- !u!114 &5998667944456433184
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,0 +1,8 @@
+/Users/sameen/Documents/GitHub/Match-3-Goods-3D-Sorting/.utmp/RelWithDebInfo/703k502s/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/sameen/Documents/GitHub/Match-3-Goods-3D-Sorting/.utmp/RelWithDebInfo/703k502s/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/sameen/Documents/GitHub/Match-3-Goods-3D-Sorting/.utmp/RelWithDebInfo/703k502s/armeabi-v7a/GameActivity/CMakeFiles/game.dir
+/Users/sameen/Documents/GitHub/Match-3-Goods-3D-Sorting/.utmp/RelWithDebInfo/703k502s/armeabi-v7a/GameActivity/CMakeFiles/edit_cache.dir
+/Users/sameen/Documents/GitHub/Match-3-Goods-3D-Sorting/.utmp/RelWithDebInfo/703k502s/armeabi-v7a/GameActivity/CMakeFiles/rebuild_cache.dir
+/Users/sameen/Documents/GitHub/Match-3-Goods-3D-Sorting/.utmp/RelWithDebInfo/703k502s/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+/Users/sameen/Documents/GitHub/Match-3-Goods-3D-Sorting/.utmp/RelWithDebInfo/703k502s/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+/Users/sameen/Documents/GitHub/Match-3-Goods-3D-Sorting/.utmp/RelWithDebInfo/703k502s/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

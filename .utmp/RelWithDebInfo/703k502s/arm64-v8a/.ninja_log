@@ -1,0 +1,23 @@
+# ninja log v5
+14281	14558	1782146120920875358	/Users/sameen/Documents/GitHub/Match-3-Goods-3D-Sorting/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/703k502s/obj/arm64-v8a/libgame.so	a9e372615dc7fb7f
+8762	13768	1782146120128108459	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	1fe1a3cec14ee7f4
+0	12574	1782146118921633983	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	49e598b490eb88f0
+8882	14278	1782146120638749266	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	edc9086e92c44525
+8	11771	1782146118123204077	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	16a203c038af41bb
+9257	10228	1782146116590442977	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	81268665b37c78e4
+10229	10504	1782146116873570106	/Users/sameen/Documents/GitHub/Match-3-Goods-3D-Sorting/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/703k502s/obj/arm64-v8a/libswappywrapper.so	687c2aacc093db81
+4	9740	1782146116061251723	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	338f1fd6c1d26e16
+2	9256	1782146115578269681	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	ef7ae9fe38908a0d
+6	8881	1782146115220752342	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	a3ec43bf2327de8b
+12	8734	1782146115089799942	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	84fc96e7c229ae2b
+57	7511	1782155307359432970	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	84fc96e7c229ae2b
+54	7581	1782155307355113674	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	a3ec43bf2327de8b
+53	7707	1782155307532993589	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	ef7ae9fe38908a0d
+53	8393	1782155308194537858	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	338f1fd6c1d26e16
+7707	8716	1782155308594676778	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	81268665b37c78e4
+56	10334	1782155310172980825	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	16a203c038af41bb
+52	11109	1782155310970631732	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	49e598b490eb88f0
+8717	12150	1782155312027898688	/Users/sameen/Documents/GitHub/Match-3-Goods-3D-Sorting/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/703k502s/obj/arm64-v8a/libswappywrapper.so	687c2aacc093db81
+7513	12502	1782155312378016892	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	1fe1a3cec14ee7f4
+7582	12772	1782155312647165336	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	edc9086e92c44525
+12772	13007	1782155312881555404	/Users/sameen/Documents/GitHub/Match-3-Goods-3D-Sorting/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/703k502s/obj/arm64-v8a/libgame.so	a9e372615dc7fb7f
