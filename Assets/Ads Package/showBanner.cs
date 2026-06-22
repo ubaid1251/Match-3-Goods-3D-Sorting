@@ -8,9 +8,4 @@ public class showBanner : MonoBehaviour
         IntitializeAdmob.Instance.ShowBanner();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

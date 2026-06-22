@@ -369,13 +369,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showLog: 1
-  admobTestIds: 1
+  admobTestIds: 0
   admobAppID: ca-app-pub-4103477709439075~6977043283
   BannerData:
     bannerAdUnitIds: ca-app-pub-4103477709439075/8749289959
     BadsPosition: 0
     bannerType: 1
-    BigBannerAdUnitIds: 
+    BigBannerAdUnitIds: ca-app-pub-4103477709439075/2466223683
     BigBadsPosition: 5
   InterData:
     admobInterstialID: ca-app-pub-4103477709439075/7436208288
@@ -384,11 +384,11 @@ MonoBehaviour:
   Delay_Time: 0
   get_touch: 0
   IsPlay_Count: 1
-  play_ad: 0
-  AppOpenID: 
-  RewardedID: 
-  isBigBannerShowing: 0
-  _isOtherAdShowing: 0
+  play_ad: 1
+  AppOpenID: ca-app-pub-4103477709439075/9364704332
+  RewardedID: ca-app-pub-4103477709439075/9870799933
+  isBigBannerShowing: 1
+  _isOtherAdShowing: 1
 --- !u!4 &1405121295
 Transform:
   m_ObjectHideFlags: 0

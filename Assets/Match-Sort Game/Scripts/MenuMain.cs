@@ -4,10 +4,14 @@ using UnityEngine.SceneManagement;
 using TMPro;
 public class MenuMain : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public GameObject RemoveAds_Obj,All_Ui;
     void Start()
     {
-        
+        if (PlayerPrefs.GetInt("RemoveAds")==1)
+        {
+            RemoveAds_Obj.SetActive(false);
+            All_Ui.transform.GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 0, 0);
+        }
     }
     public void PlayBtn()
     {
@@ -20,9 +24,5 @@ public class MenuMain : MonoBehaviour
     {
         SoundManager.instance.PlayEffect_Instance(7);
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

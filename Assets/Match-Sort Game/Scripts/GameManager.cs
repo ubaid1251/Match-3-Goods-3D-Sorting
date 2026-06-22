@@ -30,6 +30,8 @@ namespace KidsItemsSort
         public GameObject outOfHintPopup, CoinAddPopUp,LoadingPanel;
         public Button CoinPlus;
         public bool IsUi=false, IsHomePress = false;
+        public GameObject All_Ui, Coinbar;
+        public Camera MyCam;
         private void Awake()
         {
             instance = this;
@@ -164,8 +166,16 @@ namespace KidsItemsSort
         }
         private void Start()
         {
+
             IntitializeAdmob.Instance.HideBigBanner();
             Show_Ad();
+            if (PlayerPrefs.GetInt("RemoveAds") == 1)
+            {
+                MyCam.transform.position = new Vector3(0, 0.63f,-10);
+                MyCam.orthographicSize = 5.95f;
+                All_Ui.GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 0, 0);
+                Coinbar.GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 0, 0);
+            }
             Application.targetFrameRate = 120;
 
             foreach (Transform t in transform)
