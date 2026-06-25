@@ -18,13 +18,13 @@ public class Star_Controller : MonoBehaviour
     }
     private void OnEnable()
     {
-       
+
        // if (PlayerPrefs.GetInt("sfx") == 0)
         {
             StartCoroutine(PlayMyAudio());
-        
+
         }
-       
+
     }
 
     public void RateStar(int selectedStar)
@@ -79,6 +79,8 @@ public class Star_Controller : MonoBehaviour
         {
             RateUsHandler.Instance.Rate();
         }
+        Application.OpenURL("https://play.google.com/store/apps/details?id=com.amc.goods.sorting.triple.match");
+
     }
 
     private void OnDisable()
@@ -92,5 +94,10 @@ public class Star_Controller : MonoBehaviour
     public void Deactive()
     {
         gameObject.SetActive(false);
+    }
+    public void CallApp()
+    {
+        Application.OpenURL("https://play.google.com/store/apps/details?id=com.amc.goods.sorting.triple.match");
+
     }
 }

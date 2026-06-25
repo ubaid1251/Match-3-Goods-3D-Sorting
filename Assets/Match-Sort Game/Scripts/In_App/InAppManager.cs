@@ -20,14 +20,14 @@ public class InAppProduct
     {
         remove_ads,
 
-        coins_500,
-        coins_1200,
-        coins_2500,
-        coins_5000,
-        coins_10000,
-        coins_15000,
-        coins_25000,
-        coins_50000
+        coin_500,
+        coin_1200,
+        coin_2500,
+        coin_5000,
+        coin_10000,
+        coin_15000,
+        coin_25000,
+        get_coins_50000
     }
 }
 
@@ -277,19 +277,6 @@ public class InAppManager : MonoBehaviour
 
     private void ProductBought(string product)
     {
-        //switch (product)
-        //{
-        //    case nameof(InAppProduct.InAppProductType.remove_ads):
-        //    {
-        //        print("bought");
-        //        PlayerPrefs.SetInt("RemoveAds", 1);
-        //        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        //    }
-        //        break;
-        //    default:
-        //        Debug.LogWarning("Unknown product: " + product);
-        //        break;
-        //}
         switch (product)
         {
             case nameof(InAppProduct.InAppProductType.remove_ads):

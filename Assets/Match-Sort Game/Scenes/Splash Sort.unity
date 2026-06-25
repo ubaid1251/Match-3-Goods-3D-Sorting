@@ -513,42 +513,42 @@ MonoBehaviour:
     purchaseableType: 0
     localPrice: $2.99
     price: $2.99
-  - purchaseID: coins_500
+  - purchaseID: coin_500
     itemType: 1
     purchaseableType: 0
     localPrice: $0.99
     price: $0.99
-  - purchaseID: coins_1200
+  - purchaseID: coin_1200
     itemType: 2
     purchaseableType: 0
     localPrice: $1.99
     price: $1.99
-  - purchaseID: coins_2500
+  - purchaseID: coin_2500
     itemType: 3
     purchaseableType: 0
     localPrice: $3.99
     price: $3.99
-  - purchaseID: coins_5000
+  - purchaseID: coin_5000
     itemType: 4
     purchaseableType: 0
     localPrice: $4.99
     price: $4.99
-  - purchaseID: coins_10000
+  - purchaseID: coin_10000
     itemType: 5
     purchaseableType: 0
     localPrice: $7.99
     price: $7.99
-  - purchaseID: coins_15000
+  - purchaseID: coin_15000
     itemType: 6
     purchaseableType: 0
     localPrice: $9.99
     price: $9.99
-  - purchaseID: coins_25000
+  - purchaseID: coin_25000
     itemType: 7
     purchaseableType: 0
     localPrice: $12.99
     price: $12.99
-  - purchaseID: coins_50000
+  - purchaseID: get_coins_50000
     itemType: 8
     purchaseableType: 0
     localPrice: $16.99
